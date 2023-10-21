@@ -1,0 +1,280 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* .container{
+    width: 200px;
+} */
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+.carousel-item {
+    height: 1850px;
+    width: 100%;
+    left: 20px;
+}
+
+.carousel-item img {
+    height: 850px;
+    left: 20px;
+}
+
+.carousel-item {
+    height: 900px;
+}
+
+.main-pages {}
+
+.offer-img img {
+    display: flex;
+    height: 400px;
+    width: 350px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.offer-img{
+    margin-top: 20px;
+}
+
+navbar span {
+    color: white;
+}
+
+.fa-brands {
+    color: white;
+    font-weight: 30px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 22px;
+
+}
+
+.navbar-header .navbar-text i{
+    margin-right: 20px;
+    color: white;
+}
+
+.navbar-header .navbar-text {
+    color: white;
+    margin-right: 20px;
+
+}
+
+.navbar-expand-lg {
+    font-weight: 100;
+}
+
+.nav-text {
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+span a {
+    padding-right: 7px;
+}
+
+
+.carousel-item {
+    height: 570px;
+}
+
+.offer-img h1 {
+    align-items: center;
+    margin-left: 750px;
+}
+
+.offer-img img {
+    display: inline;
+    /* Use flexbox to create a row layout */
+    justify-content: space-between;
+    /* Space between images */
+    align-items: center;
+    margin-left: 20px;
+    /* Add some space around each image */
+    margin-bottom: 40px;
+
+}
+
+.col img {
+    height: 300px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+/* .col-btn {
+    background-color: rgb(114, 114, 237);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+} */
+
+.container {
+    
+}
+
+/*slide full image*/
+
+.slider {
+    display: flex;
+    width: 300%; /* Adjust to the number of slides */
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#prev {
+    left: 20px;
+    border-radius: 50px;
+}
+
+#next {
+    right: 20px;
+    border-radius: 50px;
+}
+
+
+
+/*slide img*/
+
+.slider-container {
+    text-align: center;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    /* height: 300px;
+    width: 100%; */
+    margin-bottom: 40px;
+}
+
+.slider img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+#prev {
+    left: 10px;
+    border-radius: 50px;
+
+}
+
+#next {
+    right: 10px;
+    border-radius: 50px;
+
+}
+
+/* progress flow */
+
+.process-flow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.card-img-top{
+    height: 70%;
+    margin-bottom: 40px;
+
+}
+
+ h2{
+    margin-top:  80px;
+ }
+
+ .card  col img{
+    height: 50%;
+ }
+
+ /* .carousel-inner img {
+    height: 60%;
+    width: 50%;
+ } */
+
+ .carousel-control-prev
+ {
+    margin-top: 160px;
+ }
+
+ .carousel-control-next
+ {
+    margin-top: 160px;
+ }
+
+ .typeWriterContainer {
+    width: 100%;
+    margin: 10 auto;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    top: 30%;
+    padding: 0 20px;
+}
